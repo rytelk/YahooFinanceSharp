@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFinanceSharp", "YahooFinanceSharp\YahooFinanceSharp.csproj", "{03CE3DFC-2540-4C85-99D7-4A5953BEE4B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFinanceSharp.Extensions", "YahooFinanceSharp.Extensions\YahooFinanceSharp.Extensions.csproj", "{B7AE9755-8E3A-4A29-BD08-AA01F4E7EE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooFinanceSharp.Tests", "YahooFinanceSharp.Tests\YahooFinanceSharp.Tests.csproj", "{43C806F2-134A-4734-AC8E-229AE4A9012D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03CE3DFC-2540-4C85-99D7-4A5953BEE4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CE3DFC-2540-4C85-99D7-4A5953BEE4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CE3DFC-2540-4C85-99D7-4A5953BEE4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CE3DFC-2540-4C85-99D7-4A5953BEE4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AE9755-8E3A-4A29-BD08-AA01F4E7EE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AE9755-8E3A-4A29-BD08-AA01F4E7EE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AE9755-8E3A-4A29-BD08-AA01F4E7EE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AE9755-8E3A-4A29-BD08-AA01F4E7EE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C806F2-134A-4734-AC8E-229AE4A9012D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C806F2-134A-4734-AC8E-229AE4A9012D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C806F2-134A-4734-AC8E-229AE4A9012D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C806F2-134A-4734-AC8E-229AE4A9012D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
