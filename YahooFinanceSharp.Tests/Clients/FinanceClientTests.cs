@@ -148,15 +148,4 @@ public class FinanceClientTests
         response.QuoteResponse.Result.Should().HaveCount(3);
         mockHttp.VerifyNoOutstandingExpectation();
     }
-
-    [Fact]
-    public async Task Test()
-    {
-        var httpClient = new HttpClient();
-        httpClient.BaseAddress = new Uri("https://yfapi.net");
-        httpClient.DefaultRequestHeaders.Add("x-api-key", "7tv248A54PaXNSnzOiJW19q4D5o5dge2YSl5Jhr3");
-        
-        var finance = RestService.For<IFinanceClient>(httpClient);
-        var fb = await finance.GetAutocomplete("baba");
-    }
 }
